@@ -207,27 +207,49 @@ _tnAquaDark45: #40746d;
 _tnAquaDark50: #3b6963;
 
 // Blue
-_tnBlue: #81a2be;
-_tnBlueLight5: #87a7c1;
-_tnBlueLight10: #8eabc5;
-_tnBlueLight15: #94b0c8;
-_tnBlueLight20: #9ab5cb;
-_tnBlueLight25: #a1b9ce;
-_tnBlueLight30: #a7bed2;
-_tnBlueLight35: #adc3d5;
-_tnBlueLight40: #b3c7d8;
-_tnBlueLight45: #baccdb;
-_tnBlueLight50: #c0d1df;
-_tnBlueDark5: #769ab9;
-_tnBlueDark10: #6c92b3;
-_tnBlueDark15: #618bae;
-_tnBlueDark20: #5783a8;
-_tnBlueDark25: #517b9e;
-_tnBlueDark30: #4c7393;
-_tnBlueDark35: #476a89;
-_tnBlueDark40: #41627e;
-_tnBlueDark45: #3c5a74;
-_tnBlueDark50: #365269;
+_tnBlue: #83a1b7;
+_tnBlueLight5: #89a6bb;
+_tnBlueLight10: #8faabe;
+_tnBlueLight15: #96afc2;
+_tnBlueLight20: #9cb4c5;
+_tnBlueLight25: #a2b8c9;
+_tnBlueLight30: #a8bdcd;
+_tnBlueLight35: #aec2d0;
+_tnBlueLight40: #b5c7d4;
+_tnBlueLight45: #bbcbd7;
+_tnBlueLight50: #c1d0db;
+_tnBlueDark5: #7999b1;
+_tnBlueDark10: #6f92ab;
+_tnBlueDark15: #658aa6;
+_tnBlueDark20: #5c839f;
+_tnBlueDark25: #577b95;
+_tnBlueDark30: #51728b;
+_tnBlueDark35: #4b6a81;
+_tnBlueDark40: #456277;
+_tnBlueDark45: #3f5a6d;
+_tnBlueDark50: #3a5263;
+
+_materialBlue: #2095d0;
+_materialBlueLight5: #229ddc;
+_materialBlueLight10: #2ca3df;
+_materialBlueLight15: #38a8e0;
+_materialBlueLight20: #44ade2;
+_materialBlueLight25: #50b2e4;
+_materialBlueLight30: #5bb7e6;
+_materialBlueLight35: #67bce8;
+_materialBlueLight40: #73c2e9;
+_materialBlueLight45: #7ec7eb;
+_materialBlueLight50: #8acced;
+_materialBlueDark5: #1e8ec6;
+_materialBlueDark10: #1d86bb;
+_materialBlueDark15: #1b7fb1;
+_materialBlueDark20: #1a77a6;
+_materialBlueDark25: #18709c;
+_materialBlueDark30: #166892;
+_materialBlueDark35: #156187;
+_materialBlueDark40: #13597d;
+_materialBlueDark45: #125272;
+_materialBlueDark50: #104a68;
 
 // Purple
 _tnPurple: #b294bb;
@@ -275,19 +297,22 @@ _tnCrimsonDark40: #a1296a;
 _tnCrimsonDark45: #942561;
 _tnCrimsonDark50: #862259;
 
+// White
+_materialWhite: #ffffff;
+
 
 windowBg: _tnBackground;
 windowFg: _tnForeground;
 windowBgOver: _tnSelection;
-windowBgRipple: _tnBlue;
-windowFgOver: windowFg;
+windowBgRipple: _tnBackgroundLight10; // _materialBlue;
+windowFgOver: _tnForegroundDark10;
 windowSubTextFg: #999999; // todo
 windowSubTextFgOver: #919191; // todo
-windowBoldFg: #222222; // todo
-windowBoldFgOver: #222222; // todo
-windowBgActive: #40a7e3; // todo
-windowFgActive: #ffffff; // todo
-windowActiveTextFg: #168acd; // todo
+windowBoldFg: windowFg;
+windowBoldFgOver: windowBgOver;
+windowBgActive: _materialBlue;
+windowFgActive: _materialWhite;
+windowActiveTextFg: _materialBlue;
 windowShadowFg: #000000; // todo
 windowShadowFgFallback: #f1f1f1; // todo
 shadowFg: #00000018; // todo
@@ -297,7 +322,7 @@ imageBg: #000000; // todo
 imageBgTransparent: #ffffff; // todo
 activeButtonBg: windowBgActive; // todo
 activeButtonBgOver: #39a5db; // todo
-activeButtonBgRipple: #2095d0; // todo
+activeButtonBgRipple: _materialBlueDark20;
 activeButtonFg: windowFgActive; // todo
 activeButtonFgOver: activeButtonFg; // todo
 activeButtonSecondaryFg: #cceeff; // todo
@@ -325,10 +350,10 @@ menuIconFgOver: #999999; // todo
 menuSubmenuArrowFg: #373737; // todo
 menuFgDisabled: #cccccc; // todo
 menuSeparatorFg: #f1f1f1; // todo
-scrollBarBg: #00000053; // todo
-scrollBarBgOver: #0000007a; // todo
-scrollBg: #0000001a; // todo
-scrollBgOver: #0000002c; // todo
+scrollBarBg: _tnBackgroundLight5;
+scrollBarBgOver: _tnBackgroundLight10;
+scrollBg: _tnBackgroundLight20;
+scrollBgOver: _tnBackgroundLight25;
 smallCloseIconFg: #c7c7c7; // todo
 smallCloseIconFgOver: #a3a3a3; // todo
 radialFg: windowFgActive; // todo
@@ -336,7 +361,7 @@ radialBg: #00000056; // todo
 placeholderFg: windowSubTextFg; // todo
 placeholderFgActive: #aaaaaa; // todo
 inputBorderFg: #e0e0e0; // todo
-filterInputBorderFg: #54c3f3; // todo
+filterInputBorderFg: _materialBlue;
 filterInputInactiveBg: windowBgOver; // todo
 checkboxFg: #b3b3b3; // todo
 sliderBgInactive: #e1eaef; // todo
@@ -394,8 +419,8 @@ introCoverPlaneOuter: #a1bed4; // todo
 introCoverPlaneTop: #ffffff; // todo
 dialogsMenuIconFg: menuIconFg; // todo
 dialogsMenuIconFgOver: menuIconFgOver; // todo
-dialogsBg: windowBg; // todo
-dialogsNameFg: windowBoldFg; // todo
+dialogsBg: windowBg;
+dialogsNameFg: windowBoldFg;
 dialogsChatIconFg: dialogsNameFg; // todo
 dialogsDateFg: windowSubTextFg; // todo
 dialogsTextFg: windowSubTextFg; // todo
@@ -409,7 +434,7 @@ dialogsUnreadBg: windowBgActive; // todo
 dialogsUnreadBgMuted: #bbbbbb; // todo
 dialogsUnreadFg: windowFgActive; // todo
 dialogsBgOver: windowBgOver; // todo
-dialogsNameFgOver: windowBoldFgOver; // todo
+dialogsNameFgOver: _tnForeground;
 dialogsChatIconFgOver: dialogsNameFgOver; // todo
 dialogsDateFgOver: windowSubTextFgOver; // todo
 dialogsTextFgOver: windowSubTextFgOver; // todo
@@ -422,8 +447,8 @@ dialogsSentIconFgOver: dialogsSentIconFg; // todo
 dialogsUnreadBgOver: dialogsUnreadBg; // todo
 dialogsUnreadBgMutedOver: dialogsUnreadBgMuted; // todo
 dialogsUnreadFgOver: dialogsUnreadFg; // todo
-dialogsBgActive: #419fd9; // todo
-dialogsNameFgActive: windowFgActive; // todo
+dialogsBgActive: _materialBlue;
+dialogsNameFgActive: _materialWhite;
 dialogsChatIconFgActive: dialogsNameFgActive; // todo
 dialogsDateFgActive: windowFgActive; // todo
 dialogsTextFgActive: windowFgActive; // todo
@@ -442,10 +467,10 @@ searchedBarBg: windowBgOver; // todo
 searchedBarBorder: shadowFg; // todo
 searchedBarFg: windowSubTextFgOver; // todo
 topBarBg: windowBg; // todo
-emojiPanBg: windowBg; // todo
-emojiPanCategories: #f7f7f7; // windowBg; // todo
-emojiPanHeaderFg: windowSubTextFg; // todo
-emojiPanHeaderBg: #fffffff2; // emojiPanBg; // todo
+emojiPanBg: _tnBackground;
+emojiPanCategories: _tnBackgroundLight5;
+emojiPanHeaderFg: _tnForeground;
+emojiPanHeaderBg: _tnBackgroundLight5;
 stickerPanDeleteBg: #000000cc; // todo
 stickerPanDeleteFg: windowFgActive; // todo
 stickerPreviewBg: #ffffffb0; // todo
@@ -486,31 +511,31 @@ historyPeer7UserpicBg: _tnAqua; // Light25;
 historyPeer8NameFg: _tnYellow;
 historyPeer8UserpicBg: _tnYellow; // Light25;
 historyPeerUserpicFg: windowFgActive; // todo
-historyScrollBarBg: #517c417a; // todo
-historyScrollBarBgOver: #517c41bc; // todo
-historyScrollBg: #517c414c; // todo
-historyScrollBgOver: #517c416b; // todo
+historyScrollBarBg: scrollBarBg;
+historyScrollBarBgOver: scrollBarBgOver;
+historyScrollBg: scrollBg;
+historyScrollBgOver: scrollBgOver;
 msgInBg: _tnBackgroundLight10;
 msgInBgSelected: _tnBackgroundLight5;
 msgOutBg: _tnBackgroundLight10;
 msgOutBgSelected: _tnBackgroundLight5;
 msgSelectOverlay: #358cd44c; // todo
 msgStickerOverlay: #358cd47f; // todo
-msgInServiceFg: windowActiveTextFg; // todo
-msgInServiceFgSelected: windowActiveTextFg; // todo
-msgOutServiceFg: #3a8e26; // todo
-msgOutServiceFgSelected: #367570; // todo
-msgInShadow: #748ea229; // todo
-msgInShadowSelected: #548dbb29; // todo
-msgOutShadow: #3ac34740; // todo
-msgOutShadowSelected: #37a78e40; // todo
-msgInDateFg: #a0acb6; // todo
-msgInDateFgSelected: #6a9cc5; // todo
-msgOutDateFg: #6cc264; // todo
-msgOutDateFgSelected: #50a79c; // todo
+msgInServiceFg: _materialBlue;
+msgInServiceFgSelected: _materialBlueDark10;
+msgOutServiceFg: msgInServiceFg; // _tnGreen;
+msgOutServiceFgSelected: msgInServiceFgSelected; // _tnGreenDark10;
+msgInShadow: #00000033;
+msgInShadowSelected: msgInShadow;
+msgOutShadow: msgInShadow;
+msgOutShadowSelected: msgInShadowSelected;
+msgInDateFg: _materialBlue;
+msgInDateFgSelected: _materialBlueDark10;
+msgOutDateFg: msgInDateFg;
+msgOutDateFgSelected: msgInDateFgSelected;
 msgServiceFg: windowFgActive; // todo
-msgServiceBg: #517c417f; // todo
-msgServiceBgSelected: #96b38ba2; // todo
+msgServiceBg: _materialBlueDark25;
+msgServiceBgSelected: _materialBlueDark35;
 msgInReplyBarColor: activeLineFg; // todo
 msgInReplyBarSelColor: activeLineFg; // todo
 msgOutReplyBarColor: historyOutIconFg; // todo
@@ -529,9 +554,9 @@ msgFileThumbLinkOutFgSelected: #31a298; // todo
 msgFileInBg: windowBgActive; // todo
 msgFileInBgOver: #4eade3; // todo
 msgFileInBgSelected: #51a3d3; // todo
-msgFileOutBg: #78c67f; // todo
-msgFileOutBgOver: #6bc272; // todo
-msgFileOutBgSelected: #5fb389; // todo
+msgFileOutBg: _materialBlue;
+msgFileOutBgOver: _materialBlueDark10;
+msgFileOutBgSelected: _materialBlueDark15;
 msgFile1Bg: #72b1df; // todo
 msgFile1BgDark: #5c9ece; // todo
 msgFile1BgOver: #5294c4; // todo
@@ -564,9 +589,9 @@ msgWaveformInActive: windowBgActive; // todo
 msgWaveformInActiveSelected: #51a3d3; // todo
 msgWaveformInInactive: #d4dee6; // todo
 msgWaveformInInactiveSelected: #9cc1e1; // todo
-msgWaveformOutActive: #78c67f; // todo
-msgWaveformOutActiveSelected: #6badad; // todo
-msgWaveformOutInactive: #b3e2b4; // todo
+msgWaveformOutActive: _materialBlue;
+msgWaveformOutActiveSelected: _materialBlueDark10;
+msgWaveformOutInactive: _materialBlueLight50;
 msgWaveformOutInactiveSelected: #91c3c3; // todo
 msgBotKbOverBgAdd: #ffffff20; // todo
 msgBotKbIconFg: msgServiceFg; // todo
