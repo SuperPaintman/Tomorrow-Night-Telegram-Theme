@@ -431,7 +431,7 @@ dialogsVerifiedIconFg: windowFgActive; // todo
 dialogsSendingIconFg: #c1c1c1; // todo
 dialogsSentIconFg: _tnGreen;
 dialogsUnreadBg: windowBgActive; // todo
-dialogsUnreadBgMuted: #bbbbbb; // todo
+dialogsUnreadBgMuted: _tnForeground;
 dialogsUnreadFg: windowFgActive; // todo
 dialogsBgOver: windowBgOver; // todo
 dialogsNameFgOver: _tnForeground;
