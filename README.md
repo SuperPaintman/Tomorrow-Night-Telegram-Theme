@@ -9,7 +9,7 @@
 ## Installation
 ### Download from github
 
-1. Download latest build from [releases][releases-url].
+1. Download [latest build][releases-latest-url] from [releases][releases-url].
 2. Upload it to any chat.
 3. Apply it by opening the file.
 
@@ -53,3 +53,4 @@ $ cd ./dist
 [license-url]: LICENSE
 [screenshot-image]: README/screenshot.png
 [releases-url]: https://github.com/SuperPaintman/Tomorrow-Night-Telegram-Theme/releases
+[releases-latest-url]: https://github.com/SuperPaintman/Tomorrow-Night-Telegram-Theme/releases/latest
