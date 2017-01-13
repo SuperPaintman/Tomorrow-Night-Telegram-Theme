@@ -637,9 +637,9 @@ notificationSampleUserpicFg: windowBgActive; // todo
 notificationSampleCloseFg: #d7d7d7; // windowSubTextFg; // todo
 notificationSampleTextFg: #d7d7d7; // windowSubTextFg; // todo
 notificationSampleNameFg: #939393; // windowSubTextFg; // todo
-mainMenuBg: windowBg; // todo
-mainMenuCoverBg: dialogsBgActive; // todo
-mainMenuCoverFg: windowFgActive; // todo
+mainMenuBg: windowBg;
+mainMenuCoverBg: dialogsBgActive;
+mainMenuCoverFg: windowFgActive;
 mediaPlayerBg: windowBg; // todo
 mediaPlayerActiveFg: windowBgActive; // todo
 mediaPlayerInactiveFg: sliderBgInactive; // todo
