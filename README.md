@@ -2,6 +2,25 @@
 
 --------------------------------------------------------------------------------
 
+## Installation
+### Download from github
+
+```sh
+$ theme_version="0.1.0"
+```
+
+
+### From sources
+
+```sh
+$ git clone https://github.com/SuperPaintman/Tomorrow-Night-Telegram-Theme ~/Projects/Tomorrow-Night-Telegram-Theme
+$ cd $_
+$ ./scripts/build.sh tomorrow-night
+$ cd ./dist
+```
+
+--------------------------------------------------------------------------------
+
 ## Contributing
 
 1. Fork it (<https://github.com/SuperPaintman/Tomorrow-Night-Telegram-Theme/fork>)
