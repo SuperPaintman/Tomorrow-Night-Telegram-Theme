@@ -1,5 +1,9 @@
 # Tomorrow-Night-Telegram-Theme
 
+
+![Screenshot][screenshot-image]
+
+
 --------------------------------------------------------------------------------
 
 ## Installation
@@ -38,3 +42,4 @@ $ cd ./dist
 
 
 [license-url]: LICENSE
+[screenshot-image]: README/screenshot.png
