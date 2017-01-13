@@ -329,11 +329,11 @@ activeButtonSecondaryFg: #cceeff; // todo
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // todo
 activeLineFg: #37a1de; // todo
 activeLineFgError: #e48383; // todo
-lightButtonBg: windowBg; // todo
-lightButtonBgOver: #e3f1fa; // todo
-lightButtonBgRipple: #c9e4f6; // todo
-lightButtonFg: windowActiveTextFg; // todo
-lightButtonFgOver: lightButtonFg; // todo
+lightButtonBg: _tnBackground;
+lightButtonBgOver: _tnBackgroundLight5;
+lightButtonBgRipple: _tnBackgroundLight10;
+lightButtonFg: _materialBlue;
+lightButtonFgOver: lightButtonFg;
 attentionButtonFg: #d14e4e; // todo
 attentionButtonFgOver: #d14e4e; // todo
 attentionButtonBgOver: #fcdfde; // todo
