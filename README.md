@@ -17,7 +17,7 @@
 ### Cli download from github
 
 ```sh
-$ theme_version="0.1.0"
+$ theme_version="0.1.1"
 $ curl -Lo ./tomorrow-night.tdesktop-theme "https://github.com/SuperPaintman/Tomorrow-Night-Telegram-Theme/releases/download/v${theme_version}/tomorrow-night.tdesktop-theme"
 # Then upload it to any chat and apply it by opening the file.
 ```
