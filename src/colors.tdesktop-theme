@@ -308,8 +308,8 @@ windowBgRipple: _tnBackgroundLight10; // _materialBlue;
 windowFgOver: _tnForegroundDark10;
 windowSubTextFg: #999999; // todo
 windowSubTextFgOver: #919191; // todo
-windowBoldFg: windowFg;
-windowBoldFgOver: windowBgOver;
+windowBoldFg: _tnForeground;
+windowBoldFgOver: _tnForeground;
 windowBgActive: _materialBlue;
 windowFgActive: _materialWhite;
 windowActiveTextFg: _materialBlue;
