@@ -489,7 +489,7 @@ historySendingInvertedIconFg: #ffffffc8; // todo
 historySystemBg: #89a0b47f; // todo
 historySystemBgSelected: #bbc8d4a2; // todo
 historySystemFg: windowFgActive; // todo
-historyUnreadBarBg: #fcfbfa; // todo
+historyUnreadBarBg: _tnBackgroundLight10; // todo
 historyUnreadBarBorder: shadowFg; // todo
 historyUnreadBarFg: #538bb4; // todo
 historyForwardChooseBg: #0000004c; // todo
