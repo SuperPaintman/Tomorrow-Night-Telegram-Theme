@@ -431,7 +431,7 @@ dialogsVerifiedIconFg: windowFgActive; // todo
 dialogsSendingIconFg: #c1c1c1; // todo
 dialogsSentIconFg: _tnGreen;
 dialogsUnreadBg: windowBgActive; // todo
-dialogsUnreadBgMuted: _tnForeground;
+dialogsUnreadBgMuted: _tnBackgroundLight20;
 dialogsUnreadFg: windowFgActive; // todo
 dialogsBgOver: windowBgOver; // todo
 dialogsNameFgOver: _tnForeground;
@@ -489,7 +489,7 @@ historySendingInvertedIconFg: #ffffffc8; // todo
 historySystemBg: #89a0b47f; // todo
 historySystemBgSelected: #bbc8d4a2; // todo
 historySystemFg: windowFgActive; // todo
-historyUnreadBarBg: #fcfbfa; // todo
+historyUnreadBarBg: _tnBackgroundLight10; // todo
 historyUnreadBarBorder: shadowFg; // todo
 historyUnreadBarFg: #538bb4; // todo
 historyForwardChooseBg: #0000004c; // todo

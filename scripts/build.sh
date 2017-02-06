@@ -9,10 +9,11 @@ create_zip() {
   if [[ $(which winrar 2>/dev/null) ]]; then
     winrar a -afzip -ep1 "$1" "$2"
   else
-    zip -9 -r "$1" "$2"
+    zip -9 -r -j "$1" $2
   fi
 }
 
+script_dir="$(dirname "${BASH_SOURCE[0]}")"
 dist_name="$1"
 
 if [[ ! "$dist_name" ]]; then
@@ -20,4 +21,4 @@ if [[ ! "$dist_name" ]]; then
   exit 1
 fi
 
-create_zip "./dist/$dist_name.tdesktop-theme" "./src/*"
+create_zip "$script_dir/../dist/$dist_name.tdesktop-theme" "$script_dir/../src/*"
